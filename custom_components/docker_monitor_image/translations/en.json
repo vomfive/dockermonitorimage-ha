@@ -1,0 +1,21 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Docker Monitor",
+        "description": "Enter the base URL of your API (e.g. http://0.0.0.0:5000)",
+        "data": {
+          "base_url": "Base URL",
+          "api_key": "API key"
+        }
+      },
+      "select_containers": {
+        "title": "Select containers",
+        "description": "Enable or disable each Docker container you want to monitor."
+      }
+    },
+    "error": {
+      "cannot_fetch_containers": "Cannot fetch containers from the API."
+    }
+  }
+}

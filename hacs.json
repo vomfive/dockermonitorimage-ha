@@ -1,0 +1,6 @@
+{
+  "name": "Docker Monitor Image",
+  "domains": ["docker_monitor_image"],
+  "country": "FR",
+  "homeassistant": "2023.0.0"
+}
