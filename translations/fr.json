@@ -1,0 +1,37 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Docker Monitor",
+        "description": "Entrez l'URL de base de votre API (ex: http://0.0.0.0:5000)",
+        "data": {
+          "base_url": "URL de base",
+          "api_key": "Clé API"
+        }
+      },
+      "select_containers": {
+        "title": "Sélection des conteneurs",
+        "description": "Activez ou désactivez chaque conteneur Docker à monitorer."
+      }
+    },
+    "error": {
+      "cannot_fetch_containers": "Impossible de récupérer la liste des conteneurs via l'API."
+    }
+  },
+  "entity": {
+    "sensor": {
+      "cpu": { "name": "Processeur" },
+      "mem_perc": { "name": "Mémoire (%)" },
+      "mem_usage": { "name": "Mémoire utilisée" },
+      "net_rx": { "name": "Débit réseau (RX)" },
+      "net_tx": { "name": "Débit réseau (TX)" },
+      "blk_read": { "name": "Débit lecture disque" },
+      "blk_write": { "name": "Débit écriture disque" },
+      "state": { "name": "État" },
+      "update_status_image": { "name": "État de l'image" }
+    },
+    "button": {
+      "update": { "name": "Mettre à jour l'image" }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "domain": "docker_monitor_image",
+  "name": "Docker Monitor Image",
+  "version": "0.1.0",
+  "config_flow": true,
+  "documentation": "https://github.com/vomfive/docker_monitor_image_ha",
+  "codeowners": ["@vomfive"],
+  "iot_class": "local_polling",
+  "integration_type": "hub",
+  "requirements": []
+}
